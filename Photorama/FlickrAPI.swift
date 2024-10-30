@@ -61,7 +61,6 @@ struct FlickrAPI {
         
         components.queryItems = queryItems
         return components.url!
-        
     }
     
     static func photos(fromJSON data: Data) -> Result<[Photo], Error> {
