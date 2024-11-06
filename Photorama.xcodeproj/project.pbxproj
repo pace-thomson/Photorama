@@ -16,6 +16,7 @@
 		7F7ADEE62CD19FF4006D5BDC /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ADEE52CD19FF4006D5BDC /* FlickrAPI.swift */; };
 		7F7ADEE82CD1A431006D5BDC /* Photostore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ADEE72CD1A431006D5BDC /* Photostore.swift */; };
 		7F7ADEEA2CD1A75F006D5BDC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ADEE92CD1A75F006D5BDC /* Photo.swift */; };
+		7FB537782CDBFD6C0015EB99 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB537772CDBFD6C0015EB99 /* PhotoCollectionViewCell.swift */; };
 		7FB5D2912CD9548200D06DA4 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5D2902CD9548200D06DA4 /* PhotoDataSource.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		7F7ADEE52CD19FF4006D5BDC /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		7F7ADEE72CD1A431006D5BDC /* Photostore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photostore.swift; sourceTree = "<group>"; };
 		7F7ADEE92CD1A75F006D5BDC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		7FB537772CDBFD6C0015EB99 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7FB5D2902CD9548200D06DA4 /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				7F7ADED52CD19E37006D5BDC /* PhotosViewController.swift */,
 				7F7ADEE92CD1A75F006D5BDC /* Photo.swift */,
 				7F7ADED72CD19E37006D5BDC /* Main.storyboard */,
+				7FB537772CDBFD6C0015EB99 /* PhotoCollectionViewCell.swift */,
 				7FB5D2902CD9548200D06DA4 /* PhotoDataSource.swift */,
 				7F7ADEE52CD19FF4006D5BDC /* FlickrAPI.swift */,
 				7F7ADEE72CD1A431006D5BDC /* Photostore.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7ADEEA2CD1A75F006D5BDC /* Photo.swift in Sources */,
+				7FB537782CDBFD6C0015EB99 /* PhotoCollectionViewCell.swift in Sources */,
 				7FB5D2912CD9548200D06DA4 /* PhotoDataSource.swift in Sources */,
 				7F7ADED62CD19E37006D5BDC /* PhotosViewController.swift in Sources */,
 				7F7ADEE82CD1A431006D5BDC /* Photostore.swift in Sources */,

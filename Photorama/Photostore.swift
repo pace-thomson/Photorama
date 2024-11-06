@@ -43,8 +43,7 @@ class PhotoStore {
     }
     
     
-    func fetchImage(for photo: Photo,
-                    completion: @escaping (Result<UIImage, Error>) -> Void) {
+    func fetchImage(for photo: Photo, completion: @escaping (Result<UIImage, Error>) -> Void) {
         guard let photoURL = photo.remoteURL else {
             completion(.failure(PhotoError.missingImageURL))
             return
